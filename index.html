@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap">
+
+
+
+
+
+</head>
+<body>
+    <div class="developer">
+        <p>
+            <span>MB</span>
+            <span>Games</span>
+            <span>Mohamed Beshir</span>
+        </p>
+    </div>
+    <div class="starting-page">
+        <div class="title"><h2>Hangman Game</h2></div>
+        <div class="start"><i class="fas fa-play"></i></div>
+        <img src="imgs/hangman.png" alt="">
+        
+        <div class="creator">
+            <a href="https://github.com/Mohamed-Beshir-X" target="_blank" >By / <span>Mohamed Beshir</span></a>
+        </div>
+    </div>  
+    <div class="game">
+        <div class="top">
+                <i class="fas fa-redo button again"></i>
+                <i class="fas fa-music button sound stop"></i>
+                <div class="score"><i class="fas fa-star"></i> <span>0</span></div>
+            </div>
+        <div class="container">
+            <div class="catagory">
+                <h3>Catagory</h3>
+            </div>
+            <div class="main">
+                <div class="field"></div>
+                <div class="draw">
+                    <div class="stand">
+                        <div class="rope"></div>
+                    </div>
+                    <div class="man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                        <div class="message">
+                            <span>HELP ME!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio src="audio/correct.wav" id="correct"></audio>
+    <audio src="audio/wrong.wav" id="wrong"></audio>
+    <audio src="audio/win.wav" id="win"></audio>
+    <audio src="audio/help me.mp3" id="help"></audio>
+    <audio src="audio/lose.wav" id="lose"></audio>
+    <audio src="audio/win.wav" id="win"></audio>
+    <audio src="audio/game.mp3" id="game" loop></audio>
+    <script src="main.js"></script>
+</body>
+</html>
